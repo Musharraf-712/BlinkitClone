@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    gap: 40px;
+}
+.logoAddress{
+    height: 86px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 26px;
+    /* height: 86px; */
+    border-right: 1px solid #ccc;
+}
+.address{
+    padding: 50px;
+}
+.address h2{
+    font-size: 20px;
+}
+.searchBox{
+    flex-grow: 1;
+    display: flex;
+    background-color: #f8f8f8;
+    border: 1px solid #f4f4f4;
+    border-radius: 13px;
+}
+
+.searchBox button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+.searchBox input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+}
+.searchBox input:focus{
+    outline: none;
+   
+}
+.loginCart{
+    display: flex;
+   
+    width: 323px;
+}
+.login{
+    /* border: 1px solid blue; */
+    width: 150px;
+}
+.login button{
+    padding: 13px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.cart{
+
+    width: 100px;
+    margin-left: 12px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 131, 31);
+    border-radius: 7px;
+}
+.cart button{
+    
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.cart label{
+    padding:5px;
+    font-size: 15px;
+    color: white;
+}
+
+/* **Hero section** */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    /* border: 2px solid blue; */
+    /* width: 1479px; */
+    max-width: 90%;
+    /* height: 234px; */
+}
+.card{
+   */
+    /* justify-content:space-around; */
+    /* gap: 20px; */
+    gap: 47px;
+    padding-left:13px ;
+}
+.card img{
+    width: 335px;
+    height: 195px;
+}
+.category{
+    max-width: 90%;
+    display: flex;
+    flex-wrap:wrap  ;
+}
+.category img{
+    width: 10%;
+    height: 190px;    
+    cursor: pointer;
+}
