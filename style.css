@@ -110,15 +110,23 @@ main{
     /* height: 234px; */
 }
 .card{
-   */
+   
     /* justify-content:space-around; */
     /* gap: 20px; */
-    gap: 47px;
-    padding-left:13px ;
+    width: 90%;
+    /* border: 2px solid blue; */
+    display: flex;
+    /* justify-content: center; */
+    padding-right: 40px;
+    justify-content: space-around;
+
+    
 }
 .card img{
-    width: 335px;
+    width: 370px;
     height: 195px;
+   
+    /* padding-right: 50px; */
 }
 .category{
     max-width: 90%;
