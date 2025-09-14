@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type:none;
 }
 
 header{
@@ -148,7 +151,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:15px ;
+    margin-bottom:10px ;
 }
 .heading h3{
     font-size: 23px;
@@ -174,14 +177,14 @@ main{
     transition: transform 0.2s ease-in-out;
 }
 .item1:hover{
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .image{
     text-align: center;
 }
 .item1 img{
-    width: 70%;
+    width: 70%; 
     height: auto;
     object-fit: contain;
     margin: 0px 0px 0px 0px;
@@ -235,6 +238,99 @@ main{
     background-color: #28a745;
     color: #ffffff;
 }
+
+/* **Footer section** */
+footer{
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.Ffirst{
+    /* border: 4px solid purple; */
+    max-width: 30%;
+    /* height: 390px; */
+}
+.Ffirst h3{
+    margin: 24px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+
+}
+.FfirstL{
+    /* margin: 20px 30px 0px 0px; */
+}
+.FfirstL ul{
+    display: flex;
+    gap: 10px;
+
+}
+.FfirstL ul li ul{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:column;
+    padding-right: 81px;
+}
+.Ffirst a{
+    color: rgb(102,102,102);
+}
+
+
+
+.Fsecond{
+    /* border: 4px solid greenyellow; */
+    /* width: 808px; */
+    max-width: 70%;  
+    margin-left: 35px; 
+}
+.Fsecond p{
+    display:inline-block;
+    margin: 24px 0px 24px 25px;
+    padding-left: 18px;
+}
+
+.seeAll{
+    padding: 16px;
+    color: rgb(12, 131, 31);
+    font-size: 17px;
+}
+.Fcategory{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.fsecondL{
+
+    /* border: 1px solid pink; */
+    padding-top: 13px;
+}
+
+.fsecondL ul{
+    /* display:inline-block; */
+     display: flex;
+    /* justify-content: end; */
+    flex-wrap:wrap;
+    /* border: 1px solid blue; */
+}
+.fsecondL ul li{
+    /* border: 1px solid black; */
+    width: 295px;
+    padding: 0px 0px 10px 50px ;  
+  
+}
+.fsecondL a{
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    
+}
+
+
+
 
 
 
